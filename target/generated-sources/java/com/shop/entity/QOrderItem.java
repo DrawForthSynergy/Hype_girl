@@ -33,7 +33,6 @@ public class QOrderItem extends EntityPathBase<OrderItem> {
 
     public final QItem item;
 
-    //inherited
     public final StringPath modifiedBy = _super.modifiedBy;
 
     public final QOrder order;
